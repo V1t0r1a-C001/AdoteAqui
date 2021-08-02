@@ -1,0 +1,171 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/**********************************/
+/* 0. Variáveis
+/* 1. Container
+/* 2. Menu
+/* 3. Header
+/* 4. Quem somos
+/* 5. Nossos cursos
+/* 6. Planos
+/* 7. Vantagens
+/* 8. Newsletter
+/* 9. Footer
+/**********************************/
+
+/**********************************/
+/* 0. Variáveis
+/**********************************/
+:root {
+	--ff-primary: "Nunito", Helvetica, Arial, sans-serif;
+	--clr-yellow: #FFD700;
+	--clr-green-light: #0bf96a;
+	--clr-pink-dark: #e10bf9;
+	--clr-pink-light: #f3a0fd;
+	--clr-white: #f5f5f5;
+	
+	}
+/**********************************/
+/* 1. Estilos gerais
+/**********************************/
+body{
+	background-color: var(--clr-white);
+	font-family: var(--ff-primary);
+}
+a,
+a:hover,
+a:active,
+a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+hr{
+	border:none;
+	background-color: var(--clr-pink-dark);
+	height: 2px;
+	width: 140px;
+	margin:20px auto;
+}
+
+p{
+	line-height: 21.82px;
+	padding: 0 10px;
+}
+
+.section_title{
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 10px;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+
+/**********************************/
+/* 2. Menu
+/**********************************/
+.menu-bg{
+	background-color: var(--clr-yellow);
+}
+
+.menu{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 960px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	
+}
+
+.menu_logo{
+	margin: 10px;
+}
+
+.nav_list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav_link {
+	padding: 20px 10px;
+}
+/**********************************/
+/* 3. Header
+/**********************************/
+.intro {
+	font-weight: bold;
+	font-size: 3rem;
+	text-align: center;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+/**********************************/
+/* 4. Quem somos
+/**********************************/
+.somos{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.somos-c{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.somos-c_texto{
+	flex: 6 1 160px;
+}
+
+.somos-c_img{
+	flex: 1 1 350px;
+}
+
+/**********************************/
+/* 5. Adote
+/**********************************/
+.adocoes{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.adote-c{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.adote{
+	width: 280px;
+	margin: 0 20px;
+}
+
+.adote_titulo{
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 10px 0 5px 0;
+}
+/**********************************/
+/* 6. Apadrinhe
+/**********************************/
+
+/**********************************/
+/* 7. Vantagens
+/**********************************/
+
+/**********************************/
+/* 8. Newsletter
+/**********************************/
+
+/**********************************/
+/* 9. Footer
+/**********************************/
+
